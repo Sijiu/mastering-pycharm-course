@@ -2,11 +2,12 @@ import os
 import sqlalchemy
 import sqlalchemy.orm
 # noinspection PyPackageRequirements
-from models.modelbase import SqlAlchemyBase
+from demos.projects.databases.models.modelbase import SqlAlchemyBase
 # noinspection PyUnresolvedReferences,PyPackageRequirements
 import models.album
 # noinspection PyUnresolvedReferences,PyPackageRequirements
 import models.track
+
 
 
 class DbSessionFactory:

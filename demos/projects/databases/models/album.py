@@ -1,8 +1,8 @@
 import sqlalchemy.orm
 from sqlalchemy.ext.orderinglist import ordering_list
 
-# noinspection PyPackageRequirements
-from models.modelbase import SqlAlchemyBase
+# no inspection PyPackageRequirements
+from demos.projects.databases.models.modelbase import SqlAlchemyBase
 
 
 class Album(SqlAlchemyBase):

@@ -1,7 +1,8 @@
 # noinspection PyPackageRequirements
-from models.album import Album
+
 # noinspection PyPackageRequirements
-from models.dbsession import DbSessionFactory
+from demos.projects.databases.models.album import Album
+from demos.projects.databases.models.dbsession import DbSessionFactory
 
 
 def main():
