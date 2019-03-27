@@ -98,6 +98,7 @@ ENV/
 /site
 
 # mypy
+./idea/
 .mypy_cache/
 .idea/course.iml
 .idea/misc.xml
