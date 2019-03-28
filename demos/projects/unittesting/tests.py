@@ -1,5 +1,6 @@
 import pytest
-import core
+# import core
+from demos.projects.unittesting import core
 
 
 def test_there_are_tables_available():
