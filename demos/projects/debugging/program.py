@@ -46,8 +46,8 @@ def get_fibs_in(within_num, index=None):
 
 
 if __name__ == '__main__':
-    # print(get_odd_fibs(1000))
-    print(get_fibs_in(1000, index=11))
+    print(get_odd_fibs(1000))
+    # print(get_fibs_in(1000, index=11))
     # print(get_fibs_in(100))
 
 
