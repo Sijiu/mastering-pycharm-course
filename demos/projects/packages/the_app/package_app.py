@@ -1,4 +1,4 @@
-import the_package
+from demos.projects.packages import the_package
 
 print("Using the package!")
 c = the_package.Calculator()
